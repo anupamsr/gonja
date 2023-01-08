@@ -4,8 +4,8 @@ import (
 	// "fmt"
 
 	// "github.com/juju/errors"
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/tokens"
 )
 
 // FilterFunction is the type filter functions must fulfil

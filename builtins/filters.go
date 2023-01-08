@@ -17,8 +17,8 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/paradime-io/gonja/exec"
-	u "github.com/paradime-io/gonja/utils"
+	"github.com/anupamsr/gonja/exec"
+	u "github.com/anupamsr/gonja/utils"
 )
 
 func init() {

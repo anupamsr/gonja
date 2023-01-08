@@ -12,8 +12,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/paradime-io/gonja/exec"
-	u "github.com/paradime-io/gonja/utils"
+	"github.com/anupamsr/gonja/exec"
+	u "github.com/anupamsr/gonja/utils"
 )
 
 func init() {

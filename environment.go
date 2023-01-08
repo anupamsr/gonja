@@ -6,10 +6,10 @@ import (
 
 	"github.com/goph/emperror"
 
-	"github.com/paradime-io/gonja/builtins"
-	"github.com/paradime-io/gonja/config"
-	"github.com/paradime-io/gonja/exec"
-	"github.com/paradime-io/gonja/loaders"
+	"github.com/anupamsr/gonja/builtins"
+	"github.com/anupamsr/gonja/config"
+	"github.com/anupamsr/gonja/exec"
+	"github.com/anupamsr/gonja/loaders"
 )
 
 type Environment struct {

@@ -9,7 +9,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/paradime-io/gonja/config"
+	"github.com/anupamsr/gonja/config"
 )
 
 // EOF is an arbitrary value for End Of File

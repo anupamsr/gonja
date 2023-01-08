@@ -3,7 +3,7 @@ package exec
 import (
 	"strings"
 
-	"github.com/paradime-io/gonja/nodes"
+	"github.com/anupamsr/gonja/nodes"
 )
 
 func getBlocks(tpl *nodes.Template) map[string]*nodes.Wrapper {

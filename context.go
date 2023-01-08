@@ -1,7 +1,7 @@
 package gonja
 
 // import (
-// 	"github.com/paradime-io/gonja/exec"
+// 	"github.com/anupamsr/gonja/exec"
 // )
 
 type Context map[string]interface{}

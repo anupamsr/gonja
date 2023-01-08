@@ -1,6 +1,6 @@
 package gonja
 
-import "github.com/paradime-io/gonja/config"
+import "github.com/anupamsr/gonja/config"
 
 type Config config.Config
 

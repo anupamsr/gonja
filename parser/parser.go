@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/paradime-io/gonja/config"
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/config"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/tokens"
 )
 
 // The parser provides you a comprehensive and easy tool to

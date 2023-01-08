@@ -5,8 +5,8 @@ import (
 
 	"fmt"
 
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/tokens"
 	log "github.com/sirupsen/logrus"
 )
 

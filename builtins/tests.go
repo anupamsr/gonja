@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/paradime-io/gonja/exec"
+	"github.com/anupamsr/gonja/exec"
 )
 
 var Tests = exec.TestSet{

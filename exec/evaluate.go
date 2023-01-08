@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/paradime-io/gonja/nodes"
+	"github.com/anupamsr/gonja/nodes"
 )
 
 var (

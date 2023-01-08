@@ -1,8 +1,8 @@
 package parser
 
 import (
+	"github.com/anupamsr/gonja/tokens"
 	"github.com/goph/emperror"
-	"github.com/paradime-io/gonja/tokens"
 	// "bufio"
 	// "fmt"
 	// "os"

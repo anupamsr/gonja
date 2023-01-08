@@ -5,9 +5,9 @@ import (
 
 	"github.com/bmuller/arrow"
 
-	"github.com/paradime-io/gonja"
-	"github.com/paradime-io/gonja/ext/time"
-	tu "github.com/paradime-io/gonja/testutils"
+	"github.com/anupamsr/gonja"
+	"github.com/anupamsr/gonja/ext/time"
+	tu "github.com/anupamsr/gonja/testutils"
 )
 
 func Env(root string) *gonja.Environment {

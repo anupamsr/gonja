@@ -3,8 +3,8 @@ package builtins
 import (
 	"github.com/pkg/errors"
 
-	"github.com/paradime-io/gonja/exec"
-	"github.com/paradime-io/gonja/utils"
+	"github.com/anupamsr/gonja/exec"
+	"github.com/anupamsr/gonja/utils"
 )
 
 var Globals = exec.NewContext(map[string]interface{}{
