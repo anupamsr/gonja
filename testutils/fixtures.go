@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/paradime-io/gonja"
-	"github.com/paradime-io/gonja/exec"
+	"github.com/anupamsr/gonja"
+	"github.com/anupamsr/gonja/exec"
 )
 
 var adminList = []string{"user2"}

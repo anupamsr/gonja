@@ -5,7 +5,7 @@ import (
 
 	"testing"
 
-	"github.com/paradime-io/gonja/exec"
+	"github.com/anupamsr/gonja/exec"
 	"github.com/stretchr/testify/assert"
 )
 

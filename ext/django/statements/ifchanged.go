@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/paradime-io/gonja/exec"
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/parser"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/exec"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/parser"
+	"github.com/anupamsr/gonja/tokens"
 )
 
 type IfChangedStmt struct {

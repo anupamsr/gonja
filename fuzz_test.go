@@ -2,8 +2,8 @@ package gonja_test
 
 import (
 	"fmt"
-	"github.com/paradime-io/gonja"
-	"github.com/paradime-io/gonja/config"
+	"github.com/anupamsr/gonja"
+	"github.com/anupamsr/gonja/config"
 	"os"
 	"path/filepath"
 	"testing"

@@ -1,9 +1,9 @@
 package gonja
 
 import (
-	"github.com/paradime-io/gonja/config"
-	"github.com/paradime-io/gonja/exec"
-	"github.com/paradime-io/gonja/loaders"
+	"github.com/anupamsr/gonja/config"
+	"github.com/anupamsr/gonja/exec"
+	"github.com/anupamsr/gonja/loaders"
 )
 
 var (

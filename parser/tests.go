@@ -3,7 +3,7 @@ package parser
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/paradime-io/gonja/nodes"
+	"github.com/anupamsr/gonja/nodes"
 )
 
 func (p *Parser) ParseTest(expr nodes.Expression) (nodes.Expression, error) {

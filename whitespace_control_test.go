@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/paradime-io/gonja"
-	"github.com/paradime-io/gonja/config"
+	"github.com/anupamsr/gonja"
+	"github.com/anupamsr/gonja/config"
 	"github.com/pmezard/go-difflib/difflib"
 
-	tu "github.com/paradime-io/gonja/testutils"
+	tu "github.com/anupamsr/gonja/testutils"
 )
 
 var testCases = []struct {

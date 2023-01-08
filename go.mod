@@ -1,4 +1,4 @@
-module github.com/paradime-io/gonja
+module github.com/anupamsr/gonja
 
 go 1.19
 

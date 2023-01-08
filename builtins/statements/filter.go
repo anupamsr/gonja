@@ -3,16 +3,16 @@ package statements
 import (
 	// "bytes"
 
-	// "github.com/paradime-io/gonja/exec"
+	// "github.com/anupamsr/gonja/exec"
 	"fmt"
 	"strings"
 
 	"github.com/pkg/errors"
 
-	"github.com/paradime-io/gonja/exec"
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/parser"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/exec"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/parser"
+	"github.com/anupamsr/gonja/tokens"
 )
 
 type FilterStmt struct {

@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/paradime-io/gonja/nodes"
-	"github.com/paradime-io/gonja/tokens"
+	"github.com/anupamsr/gonja/nodes"
+	"github.com/anupamsr/gonja/tokens"
 )
 
 type TemplateParser func(string) (*nodes.Template, error)

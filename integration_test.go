@@ -6,7 +6,7 @@ package gonja_test
 import (
 	"testing"
 
-	tu "github.com/paradime-io/gonja/testutils"
+	tu "github.com/anupamsr/gonja/testutils"
 )
 
 func TestTemplates(t *testing.T) {
