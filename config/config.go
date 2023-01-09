@@ -50,6 +50,11 @@ type Config struct {
 
 	// Allow extensions to store some config
 	Ext map[string]Inheritable
+
+	// Which tests require to parse the right hand side of the test, e.g.
+	// - v is mapping -> does not have a right hand side
+	// - n is divisibleby 2 -> does have a right hand side
+	TestsNeedingRightSide map[string]struct{}
 }
 
 func NewConfig() *Config {
@@ -68,6 +73,26 @@ func NewConfig() *Config {
 		Autoescape:          false,
 		StrictUndefined:     false,
 		Ext:                 map[string]Inheritable{},
+		TestsNeedingRightSide: map[string]struct{}{
+			"==":          {},
+			">=":          {},
+			">":           {},
+			"<=":          {},
+			"<":           {},
+			"!=":          {},
+			"divisibleby": {},
+			"eq":          {},
+			"equalto":     {},
+			"ge":          {},
+			"greaterthan": {},
+			"gt":          {},
+			"in":          {},
+			"le":          {},
+			"lessthan":    {},
+			"lt":          {},
+			"ne":          {},
+			"sameas":      {},
+		},
 	}
 }
 
